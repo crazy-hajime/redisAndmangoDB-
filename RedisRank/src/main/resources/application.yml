@@ -1,0 +1,12 @@
+server:
+  port: 8084
+spring:
+  data:
+    redis:
+      host: localhost
+      password:
+      database: 1
+      lettuce:
+        pool:
+          max-active: 8
+          max-idle: 8
